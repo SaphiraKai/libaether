@@ -16,7 +16,7 @@ use std::process::{Command, Stdio};
 use std::str::from_utf8;
 
 /**
-The PkgInfo struct, containing data parsed from a .PKGINFO file
+Contains data parsed from a .PKGINFO file
 
 # Public fields:
 ```
@@ -133,7 +133,7 @@ impl Default for PkgInfo {
 }
 
 /**
-The BuildInfo struct, containing data parsed from a .BUILDINFO file
+Contains data parsed from a .BUILDINFO file
 
 # Public fields:
 ```
@@ -273,7 +273,7 @@ impl Default for BuildInfo {
 }
 
 /**
-The MTree struct, containing data parsed from a .MTREE file
+Contains data parsed from a .MTREE file
 - This struct is a wrapper for the [`crate::mtree::MTree`] struct
 
 # Public fields:
@@ -321,7 +321,7 @@ impl MTree {
 }
 
 /**
-The AetherEnv struct, containing information about a libaether environment
+Contains information about a libaether environment
 
 Not yet implemented - WIP
 */
@@ -333,7 +333,7 @@ pub struct AetherEnv {
 }
 
 /**
-The Pkg struct, containing all information related to a single libaether or ALPM compatible package
+Contains all information related to a single libaether or ALPM compatible package
 
 # Public fields:
 ```
